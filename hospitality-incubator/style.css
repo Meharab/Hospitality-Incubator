@@ -1,0 +1,270 @@
+#drop {
+    color: black;
+    height: 35px;
+    border-width: 2px;
+    border-top-style: solid;
+    border-right-style: none;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-left-radius: 11px;
+    border-bottom-left-radius: 11px;
+    border-color: indigo;
+}
+
+#sear {
+    width: 300px;
+    height: 35px;
+    border-width: 2px;
+    border-top-style: solid;
+    border-right-style: none;
+    border-bottom-style: solid;
+    border-left-style: none;
+    border-color: indigo;
+}
+
+#butt {
+    background-color: white;
+    height: 35px;
+    border-width: 2px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: none;
+    border-top-right-radius: 11px;
+    border-bottom-right-radius: 11px;
+    border-color: indigo;
+}
+
+#new {
+    font-size: x-large;
+    color: indigo;
+    text-shadow: 5px 5px 10px black;
+}
+
+#head {
+    font-size: larger;
+    color: black;
+}
+
+#side1 {
+    text-decoration: underline;
+}
+
+.but {
+    background-color: #B283FF;
+    border-radius: 11px;
+}
+
+.back {
+    background-image: url(img/back.png);
+}
+
+.bttn {
+    border-color: indigo;
+    border-radius: 11px;
+}
+
+.bn {
+    background-color: #5F3C98;
+    border-radius: 11px;
+    color: white;
+    border-color: black;
+}
+
+.tag {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 10;
+    color: indigo;
+    background-color: #CDC7D6;
+}
+
+.carousel{
+    margin-top: 50px;
+}
+.carousel-inner{
+    height: 100px;
+}
+.carousel-caption{
+    color: black;
+    top: 50%;
+}
+
+#back {
+    background-image: linear-gradient(white, black);
+    height: 300px;
+    width: 400px;
+    color: white;
+}
+
+#tag {
+    position: absolute;
+    top: 15px;
+    left: 80px;
+    z-index: 10;
+    color: indigo;
+    background-color: #CDC7D6;
+}
+
+footer {
+    background-image: linear-gradient(180deg, #1B0B34 0%, rgba(27, 11, 52, 0.732494) 99.99%, rgba(27, 11, 52, 0) 100%);
+}
+
+@media (max-width: 768px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+@media (min-width: 768px) {
+    .carousel-inner .carousel-item-right.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(33.333%);
+    }
+    .carousel-inner .carousel-item-left.active, 
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(-33.333%);
+    }
+}
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left{ 
+  transform: translateX(0);
+}
+
+
+
+/*page 2*/
+
+
+
+.down {
+    color: #000;
+    background-color: #F9F9F9;
+    border-color: #F9F9F9;
+    font-size: small;
+    border-radius: 11px;
+}
+
+.color {
+    color: #9F61FF;
+}
+
+.lite {
+    color: black; 
+    background-color: #F5F5F5; 
+    border-radius: 11px;
+}
+
+
+
+/*page 3*/
+
+
+
+#tg0 {
+    position: absolute;
+    top: 15px;
+    left: 25px;
+    z-index: 10;
+    color: indigo;
+    background-color: white;
+}
+
+#tg1 {
+    position: absolute;
+    top: 15px;
+    left: 70px;
+    z-index: 10;
+    color: indigo;
+    background-color: white;
+}
+
+.bun {
+    border-color: blueviolet;
+    color: blueviolet;
+    border-radius: 11px;
+}
+
+.text {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    border-color: transparent transparent #f3f3f3;
+    border-bottom: 4px solid !important;
+    border-bottom-color: #6A983C !important;
+    font-size: 15px;
+    font-weight: bold;
+}
+.nav-tabs .nav-link {
+    color: black;
+    border: transparent;
+    font-size: 15px;
+}
+
+
+
+/*page 4*/
+
+
+
+
+.curvy {
+    border-radius: 11px;
+    background-color: #F9F9F9;
+}
+
+.bum {
+    border-color: lightgray;
+    color: gray;
+    border-radius: 11px;
+}
+
+#button-add {
+    border-top-color: gray;
+    border-bottom-color: gray;
+    border-right-color: gray;
+}
+
+#bor {
+    border-top-color: gray;
+    border-bottom-color: gray;
+    border-left-color: gray;
+}
+
+
+
+/*page 5*/
+
+
+
+#bak {
+    background-image: linear-gradient(white, black);
+    height: 350px;
+    color: white;
+}
+
+.taag {
+    color: blueviolet;
+    background-color: #F4F8EC;
+}
+
+.social {
+    background-color: #F5F5F5;
+    border-color: transparent;
+    padding: 10px;
+}
+
+.ta {
+    background-color: #F5F5F5;
+    color: black;
+}
