@@ -1,5 +1,4 @@
-# incubator
-Riadha Incubator
+# Riadah Incubator Corporate Factory
 
 ## Hospitality Incubator
 * [Home](https://meharab.github.io/incubator/hospitality-incubator/index.html)
